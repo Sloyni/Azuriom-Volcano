@@ -1,0 +1,22 @@
+
+.news-show {
+
+  .card {
+    background-color: transparent;
+    border: none;
+
+    .card-header {
+      background-color: $color-secondary;
+      border-radius: 0;
+    }
+  }
+
+  .shadow-sm {
+    box-shadow: none !important;
+  }
+
+  hr {
+    border-top: 1px solid $color-tertiary;
+  }
+
+}

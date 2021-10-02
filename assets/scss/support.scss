@@ -1,0 +1,13 @@
+.support-ticket-show {
+
+  .card {
+    border: none;
+    background-color: $color-secondary;
+    color: $color-white;
+
+    .card-header {
+      color: $color-tertiary !important;
+    }
+
+  }
+}

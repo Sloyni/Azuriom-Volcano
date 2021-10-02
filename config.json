@@ -1,0 +1,25 @@
+{
+    "subtitle": "Serveur PvP-Faction Farm2Win",
+    "server_ip": "play.azuriom.fr",
+    "footer_description": "Parturient montes nascetur ridiculus mus mauris vitae ultricies. A lacus vestibulum sed arcu non. Facilisi etiam dignissim diam quis.",
+    "footer_links": [
+        {
+            "name": "Mentions l\u00e9gales",
+            "value": "https://azuriom.com/"
+        },
+        {
+            "name": "Conditions d'utilisations",
+            "value": "https://azuriom.com/"
+        },
+        {
+            "name": "Conditions de ventes",
+            "value": "https://azuriom.com/"
+        }
+    ],
+    "footer_social_twitter": "#",
+    "footer_social_discord": "#",
+    "footer_social_steam": "#",
+    "footer_social_youtube": "#",
+    "footer_social_teamspeak": "#",
+    "footer_social_instagram": "#"
+}

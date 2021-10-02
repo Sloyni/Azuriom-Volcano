@@ -1,0 +1,248 @@
+$color-primary: #181A1E;
+$color-secondary: #22242D;
+$color-tertiary: #B40217;
+$color-tertiary-2: #A32F30;
+
+$color-white: #DDDDDD;
+$color-gray: #C6BFBF;
+$color-red: #FF3A4F;
+$color-green: #9BF3B9;
+
+/* BASE CSS
+ * --------------------------------------- */
+
+body {
+  overflow-x: hidden !important;
+  background-color: $color-secondary;
+  color: $color-white;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Rubik', sans-serif;
+}
+
+body ::selection {
+  background: $color-tertiary;
+  color: $color-primary;
+}
+
+header {
+  margin-bottom: 100px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding-inline-end: 40px;
+}
+
+li {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: $color-white;
+
+  &:hover {
+    text-decoration: none;
+    color: $color-tertiary;
+  }
+
+  &:active {
+    background-color: transparent !important;
+
+  }
+
+}
+
+::-webkit-scrollbar
+{
+  width: 7px;  /* for vertical scrollbars */
+  height: 7px; /* for horizontal scrollbars */
+}
+::-webkit-scrollbar-track
+{
+  background: $color-primary;
+}
+::-webkit-scrollbar-thumb
+{
+  background: $color-tertiary;
+  height:10px;
+}
+::-webkit-scrollbar-track-piece {
+  height: 30px;
+}
+
+/* ==============================
+   Table
+=============================== */
+
+.table {
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  min-width: auto;
+  text-align: start;
+  border: none;
+  margin: 0;
+  border-spacing: 0;
+  padding: 5px;
+  background-color: $color-tertiary-2;
+  border-collapse: collapse;
+  color: $color-white;
+  border-radius: 0;
+  font-weight: bold;
+
+  td, th {
+    border-top: none !important;
+    color: $color-white !important;
+  }
+
+  thead {
+    color: $color-white;
+    text-transform: uppercase;
+
+    th {
+      width: 20%;
+      padding: 16px;
+      text-align: start;
+      border-bottom: none !important;
+      font-weight: bold;
+      color: $color-white !important;
+    }
+
+  }
+
+  tbody {
+    background-color: $color-primary;
+
+    td {
+      padding: 10px;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1206px) {
+  table {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 40px);
+  }
+}
+
+.card {
+  background-color: transparent;
+  border: none;
+
+  .card-header {
+    background-color: $color-primary;
+    border-radius: 0;
+  }
+}
+
+.shadow-sm {
+  box-shadow: none !important;
+}
+
+.btn-link {
+  color: $color-tertiary;
+  transition: color .3s ease-in-out;
+}
+
+.breadcrumb {
+  background-color: $color-primary;
+}
+
+.editor-toolbar {
+  border-top: 1px solid $color-tertiary !important;
+  border-left: 1px solid $color-tertiary !important;
+  border-right: 1px solid $color-tertiary !important;
+
+  i {
+    color: $color-tertiary;
+  }
+}
+
+.CodeMirror {
+  background-color: $color-primary !important;
+  color: $color-white !important;
+  border: 1px solid $color-tertiary !important;
+}
+
+.card-body {
+  background-color: $color-primary;
+}
+
+.forum {
+
+  .list-group-item {
+    background-color: $color-primary;
+  }
+
+
+  .list-group-item i, .card-header i {
+    color: $color-tertiary;
+  }
+
+}
+
+.offerts {
+
+  .card-body {
+    background-color: $color-tertiary-2;
+    color: $color-primary;
+    border-radius: 10px;
+
+    h4 {
+      color: $color-white;
+      font-weight: bold;
+      font-size: 28px;
+      padding: 10px 20px;
+      margin-top: 40px;
+      background-color: $color-secondary;
+    }
+
+  }
+
+}
+
+.vote {
+  .btn {
+    background-color: $color-tertiary-2;
+    padding: 10px 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    margin: 5px 0;
+    text-align: center;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+      background-color: $color-tertiary;
+      color: white;
+      transform: scale(1.05);
+      border: none;
+    }
+  }
+}
+
+@import "layout.scss";
+@import "input.scss";
+@import "modal.scss";
+@import "main.scss";
+@import "home.scss";
+@import "faq.scss";
+@import "support.scss";
+@import "news.scss";
+@import "shop.scss";

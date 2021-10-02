@@ -1,0 +1,21 @@
+
+.page-container {
+  position: relative;
+  background-color: transparent;
+
+  &-title {
+    position: relative;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: $color-white;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  &-content {
+    padding: 0px 40px 80px 40px;
+  }
+
+}

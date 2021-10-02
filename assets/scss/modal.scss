@@ -1,0 +1,13 @@
+
+.modal-content {
+  background-color: $color-primary;
+  color: $color-white;
+
+  .close {
+    color: $color-tertiary;
+    text-shadow: none;
+    opacity: 1;
+    font-size: 40px;
+  }
+
+}

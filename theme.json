@@ -1,0 +1,12 @@
+{
+    "id": "volcano",
+    "name": "Volcano",
+    "description": "Theme for Azuriom By Captain34 & Sloyni",
+    "version": "1.0.8",
+    "url": "",
+    "authors": [
+        "Captain34",
+	"Sloyni"
+    ],
+    "apiId": 32
+}

@@ -1,0 +1,35 @@
+.faqs {
+
+  .faq {
+    background-color: $color-secondary;
+    margin-top: 10px;
+
+    .card-header {
+      background-color: $color-tertiary-2;
+      border: none;
+      border-radius: 10px !important;
+
+      a {
+        font-weight: bold;
+        color: $color-white;
+        font-size: 19px;
+      }
+
+    }
+
+    .collapse {
+      background-color: $color-secondary;
+      border: none;
+      border-radius: 10px !important;
+
+      .card-body {
+        margin-top: 10px;
+        border-radius: 10px !important;
+        transition: all .3s ease-in-out;
+      }
+
+    }
+
+  }
+
+}

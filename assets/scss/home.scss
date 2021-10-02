@@ -1,0 +1,66 @@
+
+.posts {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+  .post {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 15px;
+    flex: 1;
+    min-width: 300px;
+
+    img {
+      width: 100%;
+      height: auto;
+      float: left;
+
+      @media screen and (max-width: 1198px) {
+        width: 100%;
+      }
+    }
+
+    .post-body {
+      position: relative;
+      background-color: $color-primary;
+      padding: 20px;
+      width: 100%;
+
+      @media screen and (max-width: 1198px) {
+        width: 100%;
+        padding-bottom: 70px;
+      }
+
+      .post-title {
+        font-size: 20px;
+        color: $color-white;
+        text-transform: uppercase;
+      }
+
+      .post-text {
+        text-align: justify;
+        font-size: 16px;
+      }
+
+      .post-link {
+        float: right;
+        color: $color-tertiary;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+          background-color: $color-primary;
+          color: $color-tertiary;
+        }
+
+      }
+
+    }
+
+  }
+
+}

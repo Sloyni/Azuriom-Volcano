@@ -1,0 +1,76 @@
+textarea {
+  background-color: $color-secondary !important;
+  border: 2px solid $color-tertiary !important;
+  color: $color-white !important;
+  outline: 0 !important;
+}
+
+textarea:focus {
+  background-color: $color-secondary !important;
+  color: $color-white !important;
+  border-color: $color-tertiary !important;
+}
+
+input {
+  background-color: $color-secondary !important;
+  border: 2px solid $color-tertiary !important;
+  color: $color-white !important;
+  outline: 0 !important;
+}
+
+input:focus {
+  background-color: $color-secondary !important;
+  color: $color-white !important;
+  border-color: $color-tertiary !important;
+}
+
+select {
+  background-color: $color-secondary !important;
+  border: 2px solid $color-tertiary !important;
+  color: $color-white !important;
+  outline: 0 !important;
+}
+
+select:focus {
+  background-color: $color-secondary !important;
+  color: $color-white !important;
+  border-color: $color-tertiary !important;
+}
+
+.btn-success, .btn-primary, .btn-secondary, .btn-warning, .btn-info, .btn-danger {
+  background-color: $color-tertiary;
+  font-weight: bold;
+  color: white;
+  transition: all .3s ease-in-out;
+  border: none;
+
+  &:hover {
+    background-color: darken($color-tertiary, 5%);
+    color: white;
+    border: none;
+  }
+}
+
+.btn-danger {
+  background-color: #ff5956;
+  color: white;
+
+  &:hover {
+    background-color: darken(#ff5956, 5%);
+    color: white;
+  }
+}
+
+.badge-success, .badge-primary, .badge-secondary, .badge-warning, .badge-info, .badge-danger {
+  background-color: $color-tertiary;
+  font-weight: bold;
+  color: white;
+  transition: all .3s ease-in-out;
+  border: none;
+  padding: 5px 10px;
+}
+
+.btn-danger {
+  background-color: #ff5956;
+  color: white;
+}
